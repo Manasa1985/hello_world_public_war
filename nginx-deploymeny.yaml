@@ -32,6 +32,7 @@ spec:
     spec:
       containers:
       - name: devopsapp
-        image: siddeshg672/devopsapp:test-deploy_52
+        #image: siddeshg672/devopsapp:test-deploy_52
+        image: docker pull nginx
         ports:
         - containerPort: 8080
